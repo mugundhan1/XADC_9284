@@ -1,2 +1,0 @@
-vhdtdtfi -lib work F:/xilly_adc_test1/XADC_9284/fifo_wrap1.v -lang verilog -prj XADC_9284 -o fifo_wrap1.spl -module fifo_wrap1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family virtex5 fifo_wrap1.spl F:/xilly_adc_test1/XADC_9284/fifo_wrap1.sym 
