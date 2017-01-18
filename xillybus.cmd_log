@@ -1,0 +1,2 @@
+vhdtdtfi -lib work F:/xilly_adc_test1/XADC_9284/xillybus.v -lang verilog -prj XADC_9284 -o xillybus.spl -module xillybus -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 xillybus.spl F:/xilly_adc_test1/XADC_9284/xillybus.sym 

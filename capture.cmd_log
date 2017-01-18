@@ -1,0 +1,4 @@
+vhdtdtfi -lib work F:/xilly_adc_test1/XADC_9284/capture.v -lang verilog -prj XADC_9284 -o capture.spl -module capture -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 capture.spl F:/xilly_adc_test1/XADC_9284/capture.sym 
+vhdtdtfi -lib work F:/xilly_adc_test1/XADC_9284/capture.v -lang verilog -prj XADC_9284 -o capture.spl -module capture -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 capture.spl F:/xilly_adc_test1/XADC_9284/capture.sym 

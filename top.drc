@@ -1,0 +1,21 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Jan 18 10:46:54 2017
+
+drc -z top.ncd top.pcf
+
+WARNING:PhysDesignRules:1841 - One or more GTPs are being used in this design.
+   Evaluate the SelectIO-To-GTP Crosstalk section of the Virtex-5 RocketIO GTP
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTP performance. 
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   XLXI_8/pcie/pcie_ep0/pcie_blk/SIO/.pcie_gt_wrapper_i/icdrreset<0> is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:968 - Issue with pin connections and/or configuration on
+   block:<XLXI_4/DCM_clk>:<DCM_ADV_DCM_ADV>.  For VARIABLE or DIRECT phase
+   shifting the phase shift pins PSEN PSCLK and PSDONE should be connected to
+   active signals.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\xilly_adc_test1\XADC_9284\top.ncd
+OUTFILE=F:\xilly_adc_test1\XADC_9284\top.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=F:\xilly_adc_test1\XADC_9284
+LICENSE=ISE
+USER_INFO=__0_0_0

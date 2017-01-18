@@ -1,0 +1,4 @@
+vhdtdtfi -lib work F:/xilly_adc_test1/XADC_9284/dcm_top.v -lang verilog -prj XADC_9284 -o dcm_top.spl -module dcm_top -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 dcm_top.spl F:/xilly_adc_test1/XADC_9284/dcm_top.sym 
+vhdtdtfi -lib work F:/xilly_adc_test1/XADC_9284/dcm_top.v -lang verilog -prj XADC_9284 -o dcm_top.spl -module dcm_top -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 dcm_top.spl F:/xilly_adc_test1/XADC_9284/dcm_top.sym 
